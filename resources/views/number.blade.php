@@ -1,0 +1,145 @@
+@extends('master-fr')
+@section('title')
+Shoping cart
+@endsection
+@section('content')
+<div class=" col-md-12 col-sm-12 well pull-right-lg" style="border:0px solid">
+    <p class="well" style="padding:10px; margin-bottom:2px;">
+      <span class="glyphicon glyphicon-calendar"></span>  Lịch hôm nay
+    </p>
+    <div class="col-md-12 " style="padding:0px;">
+      <br>
+      <div class="table-responsive">
+        <table class="table table-bordered table-style ">
+          <tr>
+            <th colspan="2"><a href=""><span class="glyphicon glyphicon-chevron-left"></span></a></th>
+            <th colspan="3"> Jan - 2017</th>
+            <th colspan="2"><a href=""><span class="glyphicon glyphicon-chevron-right"></span></a></th>
+          </tr>
+          <tr>
+            <td>01<br><strong>120</strong></td>
+            <td>02<br><strong>120</strong></td>
+            <td>03<br><strong>120</strong></td>
+            <td>04<br><strong>120</strong></td>
+            <td>05<br><strong>120</strong></td>
+            <td>06<br><strong>120</strong></td>
+            <td>07<br><strong>120</strong></td>
+            <td>08<br><strong>120</strong></td>
+            <td>09<br><strong>120</strong></td>
+            <td>10<br><strong>120</strong></td>
+          </tr>
+          <tr>
+            <td>11<br><strong>120</strong></td>
+            <td class="today">12<br><strong>120</strong></td>
+            <td>13<br><strong>120</strong></td>
+            <td>14<br><strong>120</strong></td>
+            <td>15<br><strong>120</strong></td>
+            <td>16<br><strong>120</strong></td>
+            <td>17<br><strong>120</strong></td>
+            <td>18<br><strong>120</strong></td>
+            <td>19<br><strong>120</strong></td>
+            <td>20<br><strong>120</strong></td>
+          </tr>
+          <tr>
+            <td>21<br><strong>120</strong></td>
+            <td>22<br><strong>120</strong></td>
+            <td>23<br><strong>120</strong></td>
+            <td>24<br><strong>120</strong></td>
+            <td>25<br><strong>120</strong></td>
+            <td>26<br><strong>120</strong></td>
+            <td>27<br><strong>120</strong></td>
+            <td>28<br><strong>120</strong></td>
+            <td>29<br><strong>120</strong></td>
+            <td>30<br><strong>120</strong></td>
+          </tr>
+           <tr>
+              <td>31<br><strong>120</strong></td>
+              <td>32<br><strong>120</strong></td>
+              <td>33<br><strong>120</strong></td>
+              <td>34<br><strong>120</strong></td>
+              <td>35<br><strong>120</strong></td>
+              <td>36<br><strong>120</strong></td>
+              <td>37<br><strong>120</strong></td>
+              <td>38<br><strong>120</strong></td>
+              <td>39<br><strong>120</strong></td>
+              <td>40<br><strong>120</strong></td>
+          </tr>
+           <tr>
+              <td>41<br><strong>120</strong></td>
+              <td>42<br><strong>120</strong></td>
+              <td>43<br><strong>120</strong></td>
+              <td>44<br><strong>120</strong></td>
+              <td>45<br><strong>120</strong></td>
+              <td>46<br><strong>120</strong></td>
+              <td>47<br><strong>120</strong></td>
+              <td>48<br><strong>120</strong></td>
+              <td>49<br><strong>120</strong></td>
+              <td>50<br><strong>120</strong></td>
+          </tr>
+          <tr>
+              <td>51<br><strong>120</strong></td>
+              <td>52<br><strong>120</strong></td>
+              <td>53<br><strong>120</strong></td>
+              <td>54<br><strong>120</strong></td>
+              <td>55<br><strong>120</strong></td>
+              <td>56<br><strong>120</strong></td>
+              <td>57<br><strong>120</strong></td>
+              <td>58<br><strong>120</strong></td>
+              <td>59<br><strong>120</strong></td>
+              <td>60<br><strong>120</strong></td>
+          </tr>
+          <tr>
+              <td>61<br><strong>120</strong></td>
+              <td>62<br><strong>120</strong></td>
+              <td>63<br><strong>120</strong></td>
+              <td>64<br><strong>120</strong></td>
+              <td>65<br><strong>120</strong></td>
+              <td>66<br><strong>120</strong></td>
+              <td>67<br><strong>120</strong></td>
+              <td>68<br><strong>120</strong></td>
+              <td>69<br><strong>120</strong></td>
+              <td>70<br><strong>120</strong></td>
+          </tr>
+          <tr>
+              <td>71<br><strong>120</strong></td>
+              <td>72<br><strong>120</strong></td>
+              <td>73<br><strong>120</strong></td>
+              <td>74<br><strong>120</strong></td>
+              <td>75<br><strong>120</strong></td>
+              <td>76<br><strong>120</strong></td>
+              <td>77<br><strong>120</strong></td>
+              <td>78<br><strong>120</strong></td>
+              <td>79<br><strong>120</strong></td>
+              <td>80<br><strong>120</strong></td>
+          </tr>
+          <tr>
+              <td>81<br><strong>120</strong></td>
+              <td>82<br><strong>120</strong></td>
+              <td>83<br><strong>120</strong></td>
+              <td>84<br><strong>120</strong></td>
+              <td>85<br><strong>120</strong></td>
+              <td>86<br><strong>120</strong></td>
+              <td>87<br><strong>120</strong></td>
+              <td>88<br><strong>120</strong></td>
+              <td>89<br><strong>120</strong></td>
+              <td>90<br><strong>120</strong></td>
+          </tr>
+          <tr>
+              <td>91<br><strong>120</strong></td>
+              <td>92<br><strong>120</strong></td>
+              <td>93<br><strong>120</strong></td>
+              <td>94<br><strong>120</strong></td>
+              <td>95<br><strong>120</strong></td>
+              <td>96<br><strong>120</strong></td>
+              <td>97<br><strong>120</strong></td>
+              <td>98<br><strong>120</strong></td>
+              <td>99<br><strong>120</strong></td>
+              <td></td>
+          </tr>
+        </table>
+      </div>
+        
+
+    </div>
+  </div>
+@endsection

@@ -1,0 +1,14 @@
+.sidebar-menu>li>a>.fa , .skin-blue .sidebar a span{
+    font-size:20px;
+    width: 20px;
+}
+.skin-purple .sidebar-menu>li.active>a , .skin-blue .sidebar a , .skin-purple .sidebar-menu>li.menu-open>a , .skin-purple .sidebar a{
+    font-size:20px;
+    color: #fff;
+}
+.user-panel{
+    padding:30px 0px;
+}
+.user-panel>.info>p , .user-panel>.info>a {
+    font-size: 16px;
+}
